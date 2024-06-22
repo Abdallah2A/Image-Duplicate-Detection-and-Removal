@@ -79,7 +79,7 @@ def find_duplicates_in_range(_dataset_path):
 
 if __name__ == "__main__":
     old = time.time()
-    dataset_path = "D:/Colon Watcher/DATA2/Images"
+    dataset_path = "dataset/path"
     find_duplicates_in_range(dataset_path)
     new = time.time()
 
